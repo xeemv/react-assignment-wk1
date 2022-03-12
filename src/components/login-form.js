@@ -8,7 +8,9 @@ export default class LoginForm extends React.Component {
     return (
       <div className="container">
         <NavForm />
-        <h3 className="text-center" id="login-logo">Log In</h3>
+        <h3 className="text-center" id="login-logo">
+          Log In
+        </h3>
         <form action="/action_page.php">
           <div className="mb-3 mt-3">
             <label for="email" className="form-label">
@@ -20,7 +22,6 @@ export default class LoginForm extends React.Component {
               id="email"
               placeholder="Enter email"
               name="email"
-              required
             />
           </div>
           <div className="mb-3">
@@ -33,7 +34,6 @@ export default class LoginForm extends React.Component {
               id="pwd"
               placeholder="Enter password"
               name="pswd"
-              required
             />
           </div>
           <div className="form-check mb-3">
